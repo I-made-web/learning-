@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+      form{
+        border:1px solid black;
+        padding: 40px;
+      }
+      .form:focus{
+        outline: none;
+      }
+    
+    </style>
+</head>
+
+<body>
+<h4 style="border:10px solid hotpink" >HOW WELL DO YOU KNOW YOUR BESTFRIEND</h4>
+<div class="form">
+  <form>
+    <label for="fname">1. First name:</label><br>
+    <input type="text" id="fname" name="fname" required ><br>
+  </form>
+  
+    <form>
+    <label for="lname">2. Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+  </form>
+  
+  <form>
+    <label for="state">3. State of Origin:</label><br>
+    <input list="state"name="state" readonly>
+    <datalist id="state">
+      <option value="Abia"></option>
+      <option value="Adamawa"></option>
+      <option value="Akwa Ibom"></option>
+      <option value="Anambra"></option>
+      <option value="Bauchi"></option>
+      <option value="Bayelsa"></option>
+      <option value="Benue"></option>
+      <option value="Borno"></option>
+      <option value="Cross River"></option>
+      <option value="Delta"></option>
+      <option value="Ebonyi"></option>
+      <option value="Edo"></option>
+    <option value="Ekiti"></option>
+      <option value="Enugu"></option>
+      <option value="Gome"></option>
+      <option value="Benue"></option>
+      <option value="Imo"></option>
+      <option value="Jigawa"></option>
+      <option value="Kaduna"></option>
+      <option value="Kano"></option>
+      <option value="Kastina"></option>
+    </datalist>
+  </form>
+  
+  <form>
+    <label for="car">cars:</label>
+    <select id="cars" name="cars" size="2">
+      <option value="car">car</option>
+      <option value="moto">moto</option>
+      <option value="motor">motor</option>
+    </select>
+  </form>
+  
+ 
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+  
+  <form>
+    <label for="age">4. Age:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label><br>
+    <input list="age" name="age" readonly>
+    <datalist id="age">
+      <option value="17-21"></option>
+      <option value="22-25"></option>
+      <option value="26-30"></option>
+    </datalist>
+  </form>
+  
+   <form>
+    <label for="sex">5. Sex:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label><br>
+    <input list="sex" name="sex" readonly>
+    <datalist id="sex">
+      <option value="Female"></option>
+      <option value="Male"></option>
+    </datalist>
+  </form>
+  
+  <form>
+    <label for="email">6. E-mail:&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label><br>
+    <input type="email" id="email" name="email"><br>
+  </form>
+  <form>
+  <fieldset>
+    <legend>learn</legend>
+    <label for="birthday">7. Date of Birth:</label><br>
+    <input type="date" id="birthday" name="birthday"><br>
+    </fieldset>
+  </form>
+  
+  <form>
+    <label for="phone">8. Phone Number:</label><br>
+   <input type="tel" id="phone" name="phone"
+   placeholder="+2347011111111" pattern="+234"><br>
+  </form>
+  
+  <form>
+  <label for="favcolor">9. Favourite Color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+</form>
+
+  <form>
+  <label for="favball">10. Favourite Football Club:</label><br>
+    <input list="favball" name="favball" readonly>
+    <datalist id="favball">
+      <option value="Liverpool"></option>
+      <option value="Manchester City"></option>
+      <option value="Bayern M&#252;nchen"></option>
+      <option value="Real Madrid"></option>
+      <option value="Ajax Amsterdam"></option>
+      <option value="Inter Milan"></option>
+      <option value="Chelsea"></option>
+      <option value="Barcelona"></option>
+      <option value="AC Milan"></option>
+    </datalist>
+</form>
+
+<form>
+    <label for="movie">11. Favourite Movie:</label><br>
+    <input type="text" id="movie" name="movie"><br>
+  </form>
+  
+  <form>
+    <label for="song">12. Favourite Song:</label><br>
+    <input type="text" id="song" name="song"><br>
+  </form>
+
+<form>
+<p>13. Things You Love About Her/Him<br>
+NB: Check the ones applicable</p>
+  <input type="checkbox" id="check">
+  <label for="check">Hair</label><br>
+  
+  <input type="checkbox" id="check">
+  <label for="check">Voice</label><br>
+  
+  <input type="checkbox" id="check">
+  <label for="check">Sense of Humor</label><br>
+  
+ <input type="checkbox" id="check">
+  <label for="check">Height</label><br>
+  
+  <input type="checkbox" id="check">
+  <label for="check">Laughter</label><br>
+  
+  <input type="checkbox" id="check" autofocus="non">
+  <label for="check">Dress sense</label><br>
+<input type="image" src="Images/8971B2C2-0BCC-402A-BB40-7195D9722F5B.png" alt="Submit" width="20%">
+</form>
+</div>
+ <button type="submit" onclick="alert('HELLO WINNIE')">Try Me ! </button>
+  
+  <form>
+<p>13. Things You Love About Her/Him<br>
+NB: Check the ones applicable</p>
+  <input type="radio" id="radio" name="fav_things" value="HAIR">
+  <label for="radio">Hair</label><br>
+  
+  <input type="radio" id="radio" name="fav_things" value="VOICE">
+  <label for="radio">Voice</label><br>
+  
+  <input type="radio" id="radio3" name="fav_things" value="sense of humor">
+  <label for="radio3">Sense of Humor</label><br>
+    </form>
+  
+  <form
+oninput="x.value=parseInt(a.value)*parseInt(b.value)*parseInt(c.value)">
+    <input type="number" id="a" name="a">
+    x
+    <input type="number" id="b" name="b">
+    x
+    <input type="number" id="c" name="c">
+    =
+    <output name="x" for="a b c"></output>
+    <br><br>
+    <input type="reset">
+  </form>
+  
+  <form>
+    <label for="phone">phone number</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
+  </form>
+  
+  <form>
+    <label for="email">select file</label>
+    <input type="email" id="email" multiple>
+  </form>
+    <input type="button" onclick="alert('Hello World!')" value="Click me!">
+    
+    <form>
+      <label for="rev">RESOLVE</label>
+      <select id="rev" name="rev" size="3" multiple>
+        <option value="kolo">kolo</option>
+          <option value="kolo">komo</option>
+            <option value="kolo">kololo</option>
+       <option value="kolo">kjhffhbd</option>
+      </select>
+    </form>
+</body>
+
+</html>
